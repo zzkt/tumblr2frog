@@ -7,9 +7,9 @@ A: Frozen blog") it depends on both [tumblr-utils](https://github.com/bbolli/tum
 
 - create a backup of your tumblr site in json format. `python tumblr_backup.py -j example.com`
 - sort out the various paths and folder names and set the relevant values/args
-  - folder to import **from** (the `json-folder`) containing the tumlbr posts in json format
+  - folder to import **from** (the `json-folder`) containing the tumblr posts in json format
   - blog to import **to** (the `frog-folder`) which is a top level frog folder (i.e. `frog --init`)
-  - if you are importing any external media from tumlbr (images, video, etc)
+  - if you are importing any external media from tumblr (images, video, etc)
     - the folder to download external media into (the `media-folder`)
 	- the base-url for generated links (the `media-prefix`) 
 - start the import by calling `(import-json-folder)` which will recursively import any json files in the `json-folder` 
